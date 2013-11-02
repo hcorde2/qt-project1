@@ -20,3 +20,13 @@ void MainWindow::on_pushButton_clicked()
     std::cout << "pushbutton " << std::endl;
 }
 
+
+void MainWindow::on_pushButton_3_pressed()
+{
+    std::cout << "pushing button 3!" << std::endl;
+}
+
+void MainWindow::on_pushButton_2_released()
+{
+    std::cout << "let go of button 2!" << std::endl;
+}
