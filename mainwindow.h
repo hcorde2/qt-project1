@@ -1,11 +1,11 @@
 /**
 * @file
-* @author Luc Renambot
+* @author Harry Cordewener
 * @version 1.0
 * @section LICENSE
-*  blah blah
+*  Blah Blah indeed
 * @section DESCRIPTION
-*  blah blah blah
+*  Homework 1
 */
 
 #ifndef MAINWINDOW_H
@@ -36,10 +36,19 @@ public:
     ~MainWindow();
 
 private slots:
+    /*!
+     * \brief on_pushButton_clicked will send a message to stdout on push and release.
+     */
     void on_pushButton_clicked();
 
+    /*!
+     * \brief on_pushButton_3_pressed will send a message to stdout on push.
+     */
     void on_pushButton_3_pressed();
 
+    /*!
+     * \brief on_pushButton_2_released will send a message to stdout on release of button 2.
+     */
     void on_pushButton_2_released();
 
 private:
